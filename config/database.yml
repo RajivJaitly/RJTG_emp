@@ -17,6 +17,7 @@ default: &default
   password:
   socket: /var/run/mysqld/mysqld.sock
 
+# Just inserting this comment for git push
 development:
   <<: *default
   database: emp_development
